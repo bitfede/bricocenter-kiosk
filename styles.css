@@ -53,12 +53,16 @@ body {
 }
 
 .fullscreenvid {
-	flex-grow: 0.7;
+	flex-grow: 0.6;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
 .infoside {
-	flex-grow: 0.3;
+	flex-grow: 0.4;
+}
+
+#mainvideo {
+	width: 60%;
 }
