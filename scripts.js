@@ -9,10 +9,11 @@ for(var z = 0; z < videothumbs.length; z++) {
     console.log("ELEM ", elem)
     elem.onclick = function(e) {
         var newsrc = e.target.childNodes[1].src
-        console.log("clicked ", newsrc)
+        console.log("clicked ", newsrc);
         // alert("hello"); //DEBUG
-        mainvideosrc.setAttribute('src', newsrc)
+        mainvideosrc.setAttribute('src', newsrc);
         mainvideo.appendChild(mainvideosrc);
-        mainvideo.load()
+        mainvideo.load();
+        mainvideo.play();
 };
 }
