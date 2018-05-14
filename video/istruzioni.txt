@@ -1,0 +1,9 @@
+Inserire in questa cartella i video con la seguente nomenclatura:
+
+video1.mp4
+video2.mp4
+video3.mp4
+videoN.mp4
+...
+
+le anteprime dei video sono il primo fotogramma che appare nel video al tempo 00:00
